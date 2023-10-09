@@ -1,0 +1,36 @@
+.main_container{
+  display: flex;
+  justify-content: center;
+  /* background-color: cornflowerblue; */
+}
+
+#result{
+  margin-bottom: 10px;
+  border: none;
+  font-size: 28px;
+  text-align: right;
+  background-color: #1ca6d5;
+  color: white;
+  padding: 4px;
+}
+
+.calculator{
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid lightskyblue;
+}
+
+.calculator button{
+  background-color: #e2f1e2;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  margin: 2px 0;
+}
+
+.calculator button:active{
+  border: 1px solid lightgrey;
+  color: green;
+  font-size: 20px;
+}

@@ -1,0 +1,30 @@
+
+
+.grid_row_result{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 70px);
+  text-align: right;
+  background-color: lightblue; 
+}
+
+.grid_row_one{
+  display: grid;
+  grid-template-columns: 185px 90px 90px;
+  grid-template-rows: minmax(10px, 100px);
+  grid-gap: 5px;
+}
+
+.opration_buttons{
+  display: grid;
+  grid-template-columns: repeat(4, 90px);
+  grid-template-rows: minmax(10px, 100px);
+  grid-gap: 5px;
+}
+
+.grid_row_five{
+  display: grid;
+  grid-template-columns: 90px 90px 185px;
+  grid-template-rows: minmax(10px, 100px);
+  grid-gap: 5px;
+}
